@@ -18,30 +18,30 @@ date2json(new Date(1518545575000)) // Put Date object in the function to get tha
 ```
 
 ```js
-const date2json = require('date2json');
+const date2json = require("date2json");
 
 const currentTime = date2json();
 console.log(currentTime);
-// Local time
+// Local time in string JSON format
 // {
-//   year: 'YYYY',
-//   month: 'MM',
-//   day: 'DD',
-//   hour: 'HH',
-//   minute: 'mm',
-//   second: 'SS'
+//   "year": "YYYY",
+//   "month": "MM",
+//   "day": "DD",
+//   "hour": "HH",
+//   "minute": "mm",
+//   "second": "SS"
 // }
 
 const otherTime = date2json(new Date(1518545575000));
 console.log(otherTime);
-// Local time with the epoch
+// Local time with the epoch in string JSON format
 // {
-//   year: "2018",
-//   month: "02",
-//   day: "14",
-//   hour: "02",
-//   minute: "12",
-//   second: "55"
+//   "year": "2018",
+//   "month": "02",
+//   "day": "14",
+//   "hour": "02",
+//   "minute": "12",
+//   "second": "55"
 // }
 ```
 
