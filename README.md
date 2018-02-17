@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/tigercosmos/date2json.svg?branch=master)](https://travis-ci.org/tigercosmos/date2json)
 [![npm version](https://badge.fury.io/js/date2json.svg)](https://badge.fury.io/js/date2json)
+[![npm](https://img.shields.io/npm/dt/date2json.svg?style=flat-square)](https://www.npmjs.com/package/date2json)
 
 Parse Date to Json in JavaScript
 
